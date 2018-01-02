@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\util">
+      <UniqueIdentifier>{012dfdb6-5d86-432f-ae46-ce28c9f1fc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cheat">
+      <UniqueIdentifier>{32c9aa0c-a1b4-4825-912f-96c26e0b1683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cheat\hooks">
+      <UniqueIdentifier>{a353421f-71ab-41d3-b66c-335f97c355ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cheat\menu">
+      <UniqueIdentifier>{b655ced3-15ee-4ae7-b018-d16af9b5ec9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="draw.h">
+      <Filter>source\util</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>source\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>source\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>source\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>source\util</Filter>
+    </ClInclude>
+    <ClInclude Include="painttraverse.h">
+      <Filter>source\cheat\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="createmove.h">
+      <Filter>source\cheat\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menuframe.h">
+      <Filter>source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menuelement.h">
+      <Filter>source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menuelementclasses.h">
+      <Filter>source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menuinput.h">
+      <Filter>source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>source\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>source\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
